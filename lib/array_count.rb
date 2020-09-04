@@ -15,4 +15,4 @@ def count_empty_strings(array)
   element.to_s == ""
   end  
 end
-binding.pry
+
