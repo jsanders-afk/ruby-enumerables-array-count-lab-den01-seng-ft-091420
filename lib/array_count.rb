@@ -5,10 +5,9 @@ array2 = [3, "hey", -9, 24, "string here", -10]
 
 
 def count_strings(array2)
-  array.count do |element|
+  array2.count do |element|
   element.class == String
 end
-
 binding.pry
 
 def count_empty_strings(array)
