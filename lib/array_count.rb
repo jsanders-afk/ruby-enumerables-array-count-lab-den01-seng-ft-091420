@@ -7,7 +7,6 @@ array2 = [3, "hey", -9, 24, "string here", -10]
 def count_strings(array2)
   array.count do |element|
   element.class == String
-  # Return the total number of strings in the provided array using the count enumerable
 end
 
 binding.pry
