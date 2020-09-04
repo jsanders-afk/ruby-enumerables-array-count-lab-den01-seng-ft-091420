@@ -7,7 +7,7 @@ array2 = [3, "hey", -9, 24, "string here", -10]
 def count_strings(array)
   array.count do |element|
   element == 0
-end
+  end
 end
 binding.pry
 
