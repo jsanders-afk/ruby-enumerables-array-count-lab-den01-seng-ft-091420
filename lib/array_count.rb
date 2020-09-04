@@ -8,6 +8,7 @@ def count_strings(array)
   array.count do |element|
   element == 0
 end
+end
 binding.pry
 
 def count_empty_strings(array)
